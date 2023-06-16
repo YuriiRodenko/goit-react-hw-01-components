@@ -13,8 +13,11 @@ export const App = () => {
         // display: 'flex',
         // justifyContent: 'center',
         // alignItems: 'center',
-        // // fontSize: 40,
+        // fontSize: 40,
         // color: '#010101'
+        backgroundColor: '#F0F8FF',
+        margin: '0px',
+        paddingTop: '10px',
       }}
     >
       <Profile

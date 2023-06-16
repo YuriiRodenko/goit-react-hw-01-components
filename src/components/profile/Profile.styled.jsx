@@ -3,10 +3,11 @@ import styled from '@emotion/styled';
 export const Card = styled.div`
   width: 300px;
   height: 100%;
-  margin: 25px auto;
+  margin: 0px auto 25px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0px 3px 10px 1px rgba(189, 189, 189, 1);
+  background-color: white;
 `;
 
 export const Description = styled.div`
