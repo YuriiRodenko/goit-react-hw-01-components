@@ -4,7 +4,7 @@ import getRandomHexColor from '../../utils/getRandomHexColor';
 export const StatsSection = styled.section`
   display: block;
   width: 500px;
-  margin: 0 auto 50px;
+  margin: 0 auto 25px;
   padding: 0;
   overflow: hidden;
   border-radius: 10px;
