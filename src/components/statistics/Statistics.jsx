@@ -8,21 +8,20 @@ import {
   Percentage,
 } from './Statistics.styled';
 
+
 export const Statistics = ({ title, stats }) => {
   return (
 
     <StatsSection>
 
-      <Title>
-        {title}
-      </Title>
+      {title && <Title>{title}</Title>}
 
       <StatsList>
-        {stats.map(item => {
+        {stats.map(({id, label, percentage}) => {
           return (
-            <StatsItem key={item.id}>
-              <Label>{item.label}</Label>
-              <Percentage>{item.percentage}%</Percentage>
+            <StatsItem key={id}>
+              <Label>{label}</Label>
+              <Percentage>{percentage}%</Percentage>
             </StatsItem>
           );
         })}
